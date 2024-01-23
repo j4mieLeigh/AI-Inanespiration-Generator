@@ -6,37 +6,49 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>AI Inane-spiration Generator</title>
+    <title>AI Inane-spirational Quote Generator</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link
       rel="stylesheet"
       href="/src/style.css"
     />
   </head>
   <body>
-    <header>
-      <h1>Inane-spiration Generator</h1>
+    <header class="header-container">
+      <h1><span class="highlight">Inane-spiration Generator</span></h1>
       <h2>
-        Motivational quotes for when you have 27.5k followers but you're feeling
-        uninspired
+        motivational quotes
+        <h3>for when you have 27k followers but you're feeling uninspired</h3>
       </h2>
     </header>
     <main>
-      <div class="container">
-        <form action="">
+      <div class="main-container">
+        <form
+          action=""
+          id="quote-generator-form"
+        >
           <input
             type="text"
+            class="user-input"
+            id="user-input"
             placeholder="Enter a topic..."
             required
           />
-        </form>
-
-        <form action="">
           <input
             type="submit"
+            class="submit-button"
+            id="submit-button"
             placeholder="Enter a topic..."
             required
           />
         </form>
+        <div
+          class="quote"
+          id="quote"
+        >
+          PLACEHOLDER QUOTE
+        </div>
       </div>
     </main>
     <footer>
@@ -50,7 +62,7 @@
         >
         | Open-sourced 👋 on
         <a
-          href="https://github.com/j4mieLeigh/AI-Poem-Generator"
+          href="https://github.com/j4mieLeigh/AI-Inanespiration-Generator"
           title="Source code | GitHub"
           target="_blank"
           >Github</a

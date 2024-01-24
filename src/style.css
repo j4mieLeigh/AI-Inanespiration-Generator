@@ -30,8 +30,10 @@ h2 {
 }
 
 h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 44;
   padding: 0;
-  margin: 0px 5px 35px 15px;
+  margin: -5px 5px 35px 15px;
 }
 
 .header-container {
@@ -68,12 +70,21 @@ form {
 
 .quote {
   border-left: 3px solid white;
+  font-family: "Roboto", sans-serif;
   padding: 15px;
   text-align: start;
 }
 
 footer {
   font-size: 14px;
+}
+
+a {
+  color: #4b0a2a;
+}
+
+a:hover {
+  color: #98004c;
 }
 
 @keyframes blink {

@@ -85,6 +85,7 @@ a {
 
 a:hover {
   color: #98004c;
+  transition: all 200ms ease-in-out;
 }
 
 @keyframes blink {

@@ -22,4 +22,4 @@ function generateQuote(event) {
 }
 
 let formElement = document.querySelector("#quote-generator-form");
-formElement.addEventListener("click", generateQuote);
+formElement.addEventListener("submit", generateQuote);
